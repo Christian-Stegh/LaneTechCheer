@@ -14,14 +14,34 @@
 	<body class="is-preload">
 <body>
   <!-- Navigation -->
-  <nav id="nav">
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="support.html">Support</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-  </nav>
+  #nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;              /* makes items flow left to right */
+  justify-content: center;    /* centers them horizontally */
+}
+
+#nav ul li {
+  margin: 0 15px;             /* spacing between links */
+}
+
+#nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#nav ul li a:hover {
+  color: #00cc66;             /* green hover effect */
+}
+
 
   <!-- Main content starts here -->
   <header class="major container medium">
@@ -287,6 +307,7 @@ From winning championships to community service, we seek to support our athletes
 	</body>
 
 </html>
+
 
 
 
