@@ -1,10 +1,8 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Gallery</title>
+  <title>Support Lane Tech Cheer</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
@@ -13,31 +11,69 @@
       padding: 0;
     }
 
-    h1 {
-      text-align: center;
-      margin: 20px 0;
+    section.feature {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
-<section class="feature left">
-  <a href="#" class="image">
-    <img src="images/donate.jpg" alt="Support Lane Tech Cheer" width="475" />
-  </a>
-  <div class="content">
-    <h2>Lane Tech Cheer Booster Club Mission Statement</h2>
-    <p>
-      The boosters' mission is to support and promote Lane Tech's Varsity cheer program by fostering school spirit, encouraging community involvement, and providing financial and volunteer resources that empower our athletes to thrive, on and off the sidelines.
-    </p>
-    <p>
-      We are volunteers who wish to serve and lead by example. We support through fundraising, volunteerism, and we stand behind a strong moral character and good sportsmanship.
-    </p>
-    <p>
-      <strong>We need your help!</strong> The club is a 501(c)(3) non-profit organization (EIN 88-2326426) dedicated to supporting the Lane Tech Cheer program. Thanks to the boosters, we are able to fund many essential aspects of the program. These contributions make a tremendous difference for our athletes. Please consider supporting us to keep this program strong!
-    </p>
-    <p>
-      <strong>How to Donate:</strong><br />
-      We accept donations through Zelle at <em>ltcheerboosters@gmail.com</em>.
-    </p>
-    <p>
-      A donation in any amount is greatly appreciated and will help us with our ongoing costs. If you contribute a large donation, you can specify how you’d like the donation to be applied. If you'd like to arrange a large donation, or pitch in some other way, please contact us at <em>ltcheerboosters@gmail.com</em> to discuss your ideas!
-    </p>
-  </div>
-</section>
+
+    section.feature.left .image {
+      margin-right: 30px;
+    }
+
+    section.feature .image img {
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      max-width: 475px;
+      height: auto;
+    }
+
+    section.feature .content {
+      max-width: 600px;
+    }
+
+    section.feature .content h2 {
+      color: green; /* headline in green */
+      margin-bottom: 20px;
+    }
+
+    section.feature .content p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    section.feature .content strong {
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <section class="feature left">
+    <a href="#" class="image">
+      <img src="images/donate.jpg" alt="Support Lane Tech Cheer" />
+    </a>
+    <div class="content">
+      <h2>Lane Tech Cheer Booster Club Mission Statement</h2>
+      <p>
+        The boosters' mission is to support and promote Lane Tech's Varsity cheer program by fostering school spirit, encouraging community involvement, and providing financial and volunteer resources that empower our athletes to thrive, on and off the sidelines.
+      </p>
+      <p>
+        We are volunteers who wish to serve and lead by example. We support through fundraising, volunteerism, and we stand behind a strong moral character and good sportsmanship.
+      </p>
+      <p>
+        <strong>We need your help!</strong> The club is a 501(c)(3) non-profit organization (EIN 88-2326426) dedicated to supporting the Lane Tech Cheer program. Thanks to the boosters, we are able to fund many essential aspects of the program. These contributions make a tremendous difference for our athletes. Please consider supporting us to keep this program strong!
+      </p>
+      <p>
+        <strong>How to Donate:</strong><br />
+        We accept donations through Zelle at <em>ltcheerboosters@gmail.com</em>.
+      </p>
+      <p>
+        A donation in any amount is greatly appreciated and will help us with our ongoing costs. If you contribute a large donation, you can specify how you’d like the donation to be applied. If you'd like to arrange a large donation, or pitch in some other way, please contact us at <em>ltcheerboosters@gmail.com</em> to discuss your ideas!
+      </p>
+    </div>
+  </section>
+</body>
+</html>
