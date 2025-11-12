@@ -108,7 +108,7 @@ input, select, textarea {
 
 /* Prevent content from hiding behind fixed nav */
 body {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 /* Basic */
