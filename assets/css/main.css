@@ -2246,9 +2246,12 @@ body {
 			margin: 0 0 2em 0;
 		}
 
-			.image.feature img {
-				display: block;
-				width: 100%;
+			.feature .image img {
+  display: block;
+  max-width: 100%;   /* shrink to fit container */
+  height: auto;      /* keep aspect ratio */
+  position: relative;/* no absolute positioning */
+}
 			}
 
 		.image.icon {
