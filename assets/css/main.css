@@ -3340,5 +3340,23 @@ body {
 				#header br {
 					display: none;
 				}
+.back-link {
+  display: block;          /* puts it on its own line */
+  text-align: center;      /* centers the text */
+  margin: 20px auto;       /* optional spacing */
+  padding: 10px 20px;      /* button-like spacing */
+  background-color: green; /* button background */
+  color: white;            /* text color */
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;      /* rounded corners */
+  width: fit-content;      /* shrink to text size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: darkgreen; /* hover effect */
+}
 
 	}
