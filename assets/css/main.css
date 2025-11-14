@@ -3358,5 +3358,8 @@ body {
 .back-link:hover {
   background-color: darkgreen; /* hover effect */
 }
-
+/* Prevent content from hiding behind fixed nav */
+body {
+  padding-top: 80px;
+}
 	}
